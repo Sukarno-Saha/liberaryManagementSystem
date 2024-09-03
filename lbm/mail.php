@@ -38,7 +38,7 @@ try {
     $mail->Port = 587;                                     // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('worldofbooks.pvtltd@gmail.com', 'World Of Books PVTLTD');
+    $mail->setFrom('yourmail', 'yourname');
     $mail->addAddress($email, 'Recipient Name'); // Add a recipient
 
     // Load HTML content from the template file
