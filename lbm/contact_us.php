@@ -36,7 +36,7 @@ if (isset($_POST['send'])) {
             $mail->Port = 587;                                     // TCP port to connect to
 
             // Recipients
-            $mail->setFrom('worldofbooks.pvtltd@gmail.com', 'World Of Books PVTLTD');
+            $mail->setFrom('yourmail', 'yourname');
             $mail->addAddress($email, $name); // Add a recipient
 
             // Load HTML content from the template file
