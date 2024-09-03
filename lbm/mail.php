@@ -15,7 +15,7 @@
 </html>
 
 <?php
-$email = "mitraankita613@gmail.com";
+$email = "testemail.com";
 $subject="password changer";
 // $messege="this is your otp:";
 use PHPMailer\PHPMailer\PHPMailer;
