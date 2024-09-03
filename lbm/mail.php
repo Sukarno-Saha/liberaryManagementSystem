@@ -30,12 +30,12 @@ if(isset($_POST["send"])){
 try {
     // Server settings
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com';                        // Specify main and backup SMTP servers
+    $mail->Host = 'write the smtp gmail';                        // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                                // Enable SMTP authentication
     $mail->Username = 'yourmail';              // SMTP username
     $mail->Password = 'yourpass'; // SMTP password or app password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;    // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-    $mail->Port = 587;                                     // TCP port to connect to
+    $mail->Port = tcp port number;                                     // TCP port to connect to
 
     // Recipients
     $mail->setFrom('yourmail', 'yourname');
